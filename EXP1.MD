@@ -61,19 +61,21 @@ switch()
 ### Output:
 ### Program:
 def compare(): 
-a=input("Enter a value for A: ") 
-b=input("Enter a value for B: ") 
-try: 
-a=int(a) 
-b=int(b) 
-if a>b: 
-print("A is greater than") 
-elif a<b: 
-print("B is greater than") 
-else: 
-print("A is equal to B") 
-except ValueError: 
-print(“Enter a valid number.”)
+    a=input("Enter a value for A: ") 
+    b=input("Enter a value for B: ") 
+    try: 
+        a=int(a) 
+        b=int(b) 
+        if a>b: 
+            print("A is greater than") 
+        elif a<b: 
+            print("B is greater than") 
+        else: 
+            print("A is equal to B") 
+    except ValueError: 
+        print("Enter a valid number.")
+
+compare()
 ### Output:
 
 ### Program:
